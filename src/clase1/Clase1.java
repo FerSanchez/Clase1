@@ -21,21 +21,35 @@ public class Clase1 {
         
         System.out.print("CESUN");*/
         
-     
+        Scanner ejercicio1= new Scanner(System.in);
+        int z;
+        System.out.println("Ejercicio1");
+        System.out.print("Introduce un número: ");
+        z= ejercicio1.nextInt();      
+        int resultado=1;
         
-       /* Scanner a = new Scanner(System.in);
+        for(int i = 1; i<=z; i++){
+            resultado=resultado*i;
+             
+        }
+        System.out.println(resultado);
+    
+        
+       Scanner ejercicio2= new Scanner(System.in);
         int n;
-        System.out.print("Introduce un número entero: ");
-        n = a.nextInt();
-        System.out.println("Tabla del " + n);
+        System.out.print("Ejercicio 2");
+        System.out.print("Introduce un número: ");
+        n = ejercicio2.nextInt();
+        System.out.println(n);
         for(int i = 1; i<=10; i++){
-        System.out.println(n + " * " + i + " = " + n*i);*/
+             System.out.println(n + " * " + i + " = " + n*i);
+        }
         
         
         int numero;
         System.out.print("Ejercicio3: ");
-        Scanner ejercicio2 = new Scanner(System.in);
-        numero=ejercicio2.nextInt();
+        Scanner ejercicio3 = new Scanner(System.in);
+        numero=ejercicio3.nextInt();
         if(numero<0)
         {
             numero= numero*-1;
